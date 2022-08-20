@@ -7,9 +7,7 @@ import ArticleIcon from "@mui/icons-material/Article";
 import { useState } from "react";
 
 export default function HamBurger(props) {
-  const pathHandler = (path) => {
-    props.pathSetter(path);
-  };
+  
   return (
     <div className={classes.hamburger}>
       <section>
@@ -23,17 +21,17 @@ export default function HamBurger(props) {
           }}
         />
         {/* <img src="/without_tagline.png" alt="logo" /> */}
-        <h4 onClick={()=>pathHandler("users")}>
+        <h4 >
           <span></span>
           <GridViewIcon style={{ color: "var(--white)", marginRight: "5%" }} />
           Users
         </h4>
-        <h4 onClick={()=>pathHandler("products")}>
+        <h4 >
           <span></span>
           <AddIcon style={{ color: "var(--white)", marginRight: "5%" }} />
           Products
         </h4>
-        <h4 onClick={()=>pathHandler("orders")}>
+        <h4 >
           <span></span>
           <SummarizeIcon style={{ color: "var(--white)", marginRight: "5%" }} />
           Orders

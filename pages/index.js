@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       {/* <Data/> */}
-      {hamburger && <HamBurger pathSetter={pathSetter}  hamburgerHandler={hamburgerHandler} />}
+      {hamburger && <HamBurger  hamburgerHandler={hamburgerHandler} />}
       <div className={classes.background}>
         <DashBoard hamburgerHandler={hamburgerHandler} />
       </div>

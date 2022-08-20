@@ -24,7 +24,7 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 120px;
+    height: 85px;
     width: 55%;
   }
   
@@ -203,8 +203,8 @@
       height: 450px;
     }
     .signin main > img {
-      height: 120px;
-      width: 80%;
+      height: 70px;
+      width: 60%;
     }
     .signin main > h3 {
       font-size: 30px;
@@ -249,8 +249,8 @@
       margin-top: 14px;
     }
     .signin main > img {
-      height: 100px;
-      width: 80%;
+      height: 60px;
+      width: 60%;
     }
     .signin main > h3 {
       font-size: 25px;
@@ -295,8 +295,8 @@
       margin-top: 10px;
     }
     .signin main > img {
-      height: 100px;
-      width: 80%;
+      height: 55px;
+      width: 60%;
     }
     .signin main > h3 {
       font-size: 25px;
@@ -339,7 +339,7 @@
       width: 100%;
     }
     .signin main > img {
-      height: 120px;
+      height: 85px;
       width: 40%;
     }
     .signin main section > p{
@@ -389,20 +389,20 @@
   
   @media (max-width:530px) {
     .signin main > img {
-      height: 120px;
+      height: 85px;
       width: 50%;
     }
   }
   @media (max-width:450px) {
     .signin main > img {
-      height: 110px;
-      width: 50%;
+      height: 65px;
+      width: 55%;
     }
   }
   
   @media (max-width:400px) {
     .signin main > img {
-      height: 110px;
+      height: 70px;
       width: 60%;
     }
   }

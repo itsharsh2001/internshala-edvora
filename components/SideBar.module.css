@@ -17,8 +17,8 @@
 
 .sidebar>section>img{
     display: block;
-    height: 110px;
-    width: 200px;
+    height: 80px;
+    width: 180px;
     margin: auto;
     margin-top: 0;
     margin-bottom: 0;
@@ -116,8 +116,8 @@
 
 @media (max-width:1150px) {
     .sidebar>section>img{
-        height: 80px;
-        width: 150px;
+        height: 65px;
+        width: 140px;
     }
     /* .sidebar>section>h4{
         font: normal normal normal 14px Rubik;
